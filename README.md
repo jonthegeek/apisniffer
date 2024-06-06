@@ -14,7 +14,7 @@ coverage](https://codecov.io/gh/jonthegeek/apisniffer/branch/main/graph/badge.sv
 [![R-CMD-check](https://github.com/jonthegeek/apisniffer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jonthegeek/apisniffer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of apisniffer is to…
+Use web traffic to locate APIs invoked by websites.
 
 ## Installation
 
