@@ -16,6 +16,10 @@ knitr::opts_chunk$set(
 # apisniffer
 
 <!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/apisniffer)](https://CRAN.R-project.org/package=apisniffer)
+[![Codecov test coverage](https://codecov.io/gh/jonthegeek/apisniffer/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jonthegeek/apisniffer?branch=main)
+[![R-CMD-check](https://github.com/jonthegeek/apisniffer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jonthegeek/apisniffer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of apisniffer is to...
