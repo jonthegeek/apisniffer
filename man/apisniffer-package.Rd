@@ -4,9 +4,9 @@
 \name{apisniffer-package}
 \alias{apisniffer}
 \alias{apisniffer-package}
-\title{apisniffer: What the Package Does}
+\title{apisniffer: Find APIs Called by Websites}
 \description{
-The goal of apisniffer is to...
+Use web traffic to locate APIs invoked by websites.
 }
 \seealso{
 Useful links:
