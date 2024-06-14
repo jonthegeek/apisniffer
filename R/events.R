@@ -28,7 +28,7 @@
 
 .log_json_response_body <- function(response_body, request_id) {
   .env_append(the, "api_response_bodies", .the_list(response_body, request_id))
-  if (length(response_body$body)) {
+  if (length(response_body$body) && nzchar(response_body$body)) {
     resp_json <- jsonlite::parse_json(response_body$body)
     if (length(resp_json)) {
       .env_append(the, "api_response_json", .the_list(resp_json, request_id))

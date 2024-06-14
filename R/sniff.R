@@ -6,7 +6,7 @@
 #' @inheritParams rlang::args_dots_empty
 #' @param url The URL to load.
 #' @param min_wait The minimum number of seconds to wait for API calls to begin.
-#'   The default 8 seconds worked for the 1 page I have tested so far.
+#'   The default 8 seconds worked for the 2 pages I have tested so far.
 #' @param max_wait The maximum number of seconds to wait for API calls to
 #'   complete. If there are still calls happening when this time is reached,
 #'   they will be stopped and ignored.
@@ -19,6 +19,7 @@ sniff <- function(url, ..., min_wait = 8, max_wait = 60) {
   rlang::check_dots_empty()
   .reset_the_env()
   the$session <- .initialize_chromote_session(url)
+  the$session$default_timeout <- max_wait + 1
   .navigate_url(the$session, url)
   .wait_for_responses(start, min_wait, max_wait)
   the$session$close()

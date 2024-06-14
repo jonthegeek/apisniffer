@@ -12,7 +12,7 @@ sniff(url, ..., min_wait = 8, max_wait = 60)
 \item{...}{These dots are for future extensions and must be empty.}
 
 \item{min_wait}{The minimum number of seconds to wait for API calls to begin.
-The default 8 seconds worked for the 1 page I have tested so far.}
+The default 8 seconds worked for the 2 pages I have tested so far.}
 
 \item{max_wait}{The maximum number of seconds to wait for API calls to
 complete. If there are still calls happening when this time is reached,
